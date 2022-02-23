@@ -30,7 +30,7 @@ class App extends Component{
       monster.name.toLowerCase().includes(searchfield.toLowerCase()))
     return (
       <div className="App">
-        <h1> Monster Rolodex </h1>
+        <h1>Monster Rolodex</h1>
         <SearchBox 
         onSearchChange = {this.onSearchChange} 
         placeholder = "search monster"/>  {/* 這裡要用""才會顯示" */}
